@@ -1,7 +1,7 @@
 const Rx = require('rxjs/RX');
 
 const names = ['Carlos', 'Marcella', 'Mussum', 'Cacildis'];
-const greeting = 'Helo';
+const greeting = 'Hello';
 
 const names$ = Rx.Observable.from(names);
 const greeting$ = Rx.Observable.of(greeting);
